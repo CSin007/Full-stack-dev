@@ -20,8 +20,8 @@ app.get('/', (req, res) => {
 });
 // this can be seen on the localhost page 
 
-// good practice to connect to DB first then run server
-mongoose.connect('mongodb+srv://csinha:firstAPI093forme@backenddb.ongpvio.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB')
+// good practice to connect to DB first then run server, blocked out the code here because it has sensitive info 
+mongoose.connect('')
   .then(() => {
     console.log('Connected!'); 
     app.listen(7000,() => {
